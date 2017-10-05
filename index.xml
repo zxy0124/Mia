@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>http://zxy0124.github.io/</link>
+    <link>http://example.org/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 05 Oct 2017 21:26:14 +0800</lastBuildDate>
     
-	<atom:link href="http://zxy0124.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello</title>
-      <link>http://zxy0124.github.io/post/hello/</link>
+      <link>http://example.org/post/hello/</link>
       <pubDate>Thu, 05 Oct 2017 21:26:14 +0800</pubDate>
       
-      <guid>http://zxy0124.github.io/post/hello/</guid>
-      <description>helloooo</description>
+      <guid>http://example.org/post/hello/</guid>
+      <description>Mia 在xcamp的第一次作业记录</description>
     </item>
     
   </channel>
