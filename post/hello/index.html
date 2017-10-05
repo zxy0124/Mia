@@ -117,7 +117,11 @@
             </div>
             <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li><a href="#mia-在xcamp的第一次作业记录">Mia 在xcamp的第一次作业记录</a></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -132,7 +136,60 @@
 
 
 
-<p>Mia 在xcamp的第一次作业记录</p>
+
+
+<h1 id="mia-在xcamp的第一次作业记录">Mia 在xcamp的第一次作业记录</h1>
+
+<p>##1. github安装</p>
+
+<p>下载：<a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a>
+安装教程： <a href="http://blog.csdn.net/helinlin007/article/details/50358633">http://blog.csdn.net/helinlin007/article/details/50358633</a>
+<a href="http://jingyan.baidu.com/article/ceb9fb10b918a48cac2ba07d.html">http://jingyan.baidu.com/article/ceb9fb10b918a48cac2ba07d.html</a></p>
+
+<p>##2. atom安装
+下载：<a href="https://atom.io">https://atom.io</a></p>
+
+<p>##3. hugo安装
+下载：<a href="https://github.com/gohugoio/hugo/releases">https://github.com/gohugoio/hugo/releases</a> 二进制文件可以直接运行
+/usr/bin/ruby -e &ldquo;$(curl -fsSL <a href="https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;">https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</a>
+粘贴以上代码在terminal 安装homebrew
+homebrew参考地址：<a href="https://brew.sh/index_zh-cn.html">https://brew.sh/index_zh-cn.html</a>
+然后执行 :brew install hugo
+测试完成：hugo version 返回版本信息</p>
+
+<p>##4. 申请netlify
+<a href="https://www.netlify.com">https://www.netlify.com</a></p>
+
+<p>使用教程：<a href="https://www.freehao123.com/netlify/">https://www.freehao123.com/netlify/</a></p>
+
+<p>##5. 开始建立站点
+hugo教程：<a href="http://www.cnblogs.com/fnng/p/7110957.html">http://www.cnblogs.com/fnng/p/7110957.html</a>
+在终端用mkdir建立站点目录
+rm -tf为删除目录
+遇到问题：在终端不能识别hugo命令。发现Hugo虽然时二进制文件但是不能直接使用，需要用homebrew 命令安装，homebrew 命令也不认，那么先安装homebrew. 补充以上步骤及到hugo安装章节
+开始用hugo 创建个人站点： 执行 hugo new site blog</p>
+
+<p>hugo搭建站点教程：<a href="http://www.cnblogs.com/ciey/p/6393150.html">http://www.cnblogs.com/ciey/p/6393150.html</a>
+站点可以生成之后遇到的问题：往里面添加文章太费劲了，需要一个编辑器，用上atom
+问题：如何将atom 与hugo 关联起来.在atom中直接打开目录就可以，直接在atom中建立的md文件不符合显示规则不能显示，还是用hugo命令new出来比较好，new的时候注意选到post路径下。
+<a href="http://www.gohugo.org">http://www.gohugo.org</a></p>
+
+<p>本地站点有了，现在的问题是怎么把代码放到git上,教程：
+<a href="https://yq.aliyun.com/articles/4071">https://yq.aliyun.com/articles/4071</a>
+然后在响应的repo里面就有上传的文件了</p>
+
+<p>##6. 发布网站
+git的基本使用
+先创建：git init
+创建远端目录：git remote add origin <a href="https://github.com/repo地址">https://github.com/repo地址</a></p>
+
+<p>在netfly上new 一个站点，
+然后参考教程：<a href="https://www.netlify.com/docs/custom-domains/#dns-configuration">https://www.netlify.com/docs/custom-domains/#dns-configuration</a></p>
+
+<p>遇到问题：dns不能解析，找不到ip
+后来解析了netlify对应项目的ip填到阿里云，netlify才解析成功，然后又把netlify的dns地址回填到了阿里云,这时候可以访问了，但是没有站点内容</p>
+
+<p>原来需要在终端hugo &ndash;theme 一下，才能真正生成文件</p>
 
 
 <footer class=" footline" >
